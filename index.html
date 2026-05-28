@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support – Einkauf</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f5f5f7;
+      --card: rgba(255,255,255,0.8);
+      --text: #111111;
+      --muted: #6e6e73;
+      --line: rgba(0,0,0,0.08);
+      --accent: #0a84ff;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #000000;
+        --card: rgba(28,28,30,0.9);
+        --text: #f5f5f7;
+        --muted: #a1a1a6;
+        --line: rgba(255,255,255,0.08);
+        --accent: #4da3ff;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 32px 20px 80px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 28px;
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+    }
+    h1 {
+      font-size: 2rem;
+      margin: 0 0 8px;
+    }
+    h2 {
+      margin-top: 28px;
+      margin-bottom: 10px;
+      font-size: 1.15rem;
+    }
+    p, li {
+      font-size: 1rem;
+    }
+    .muted {
+      color: var(--muted);
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    ul {
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="card">
+      <h1>Support</h1>
+      <p class="muted">Hilfe und Kontakt für die App <strong>Einkauf</strong></p>
+
+      <p>
+        Wenn du Fragen, Probleme oder Feedback zur App hast, kannst du mich jederzeit per E-Mail kontaktieren.
+      </p>
+
+      <h2>Kontakt</h2>
+      <p>
+        E-Mail:
+        <a href="mailto:e.arslan2025@gmail.com">e.arslan2025@gmail.com</a>
+      </p>
+
+      <h2>Wobei ich helfen kann</h2>
+      <ul>
+        <li>Probleme beim Erstellen oder Bearbeiten von Einkaufslisten</li>
+        <li>Fragen zu Kundenkarten, Barcode-Scan oder Screenshot-Import</li>
+        <li>Probleme mit iCloud-Synchronisierung oder Freigaben</li>
+        <li>Feedback, Verbesserungsvorschläge und Fehlermeldungen</li>
+      </ul>
+
+      <h2>Hinweise</h2>
+      <p>
+        Wenn ein Problem mit der Apple-Anmeldung oder iCloud-Freigabe zusammenhängt, prüfe bitte auch deine Apple-ID-,
+        iCloud- und Internet-Einstellungen auf dem Gerät, da diese Funktionen auf Apple-Diensten basieren. [web:1962][web:1965]
+      </p>
+
+      <h2>Antwortzeit</h2>
+      <p>
+        Ich bemühe mich, Support-Anfragen so schnell wie möglich zu beantworten.
+      </p>
+
+      <h2>Datenschutz</h2>
+      <p>
+        Informationen zum Datenschutz findest du auf der separaten Datenschutzerklärungs-Seite der App.
+      </p>
+    </div>
+  </main>
+</body>
+</html>
