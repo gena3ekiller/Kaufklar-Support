@@ -70,6 +70,13 @@
     ul {
       padding-left: 20px;
     }
+    .top-links,
+    .footer-links {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-top: 12px;
+    }
   </style>
 </head>
 <body>
@@ -77,6 +84,10 @@
     <div class="card">
       <h1>Support</h1>
       <p class="muted">Hilfe und Kontakt für die App <strong>Einkauf</strong></p>
+
+      <div class="top-links">
+        <a href="privacy.html">Zum Datenschutz</a>
+      </div>
 
       <p>
         Wenn du Fragen, Probleme oder Feedback zur App hast, kannst du mich jederzeit per E-Mail kontaktieren.
@@ -107,10 +118,9 @@
         Ich bemühe mich, Support-Anfragen so schnell wie möglich zu beantworten.
       </p>
 
-      <h2>Datenschutz</h2>
-      <p>
-        Informationen zum Datenschutz findest du auf der separaten Datenschutzerklärungs-Seite der App.
-      </p>
+      <div class="footer-links">
+        <a href="https://gena3ekiller.github.io/Kaufklar-Datenschutz/">Datenschutz</a>
+      </div>
     </div>
   </main>
 </body>
